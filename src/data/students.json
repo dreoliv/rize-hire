@@ -1,0 +1,904 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@university.edu",
+      "location": "San Francisco, CA",
+      "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+      "major": "Computer Science",
+      "college": "Stanford University",
+      "graduationYear": 2024,
+      "matchScore": 94,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 3.2,
+        "attendanceRate": 98,
+        "engagementScore": 4.7,
+        "messagesPerCourse": 12,
+        "avgResponseTimeHours": 2.4,
+        "careerMilestoneGrade": 4.8,
+        "interviewingGrade": 4.6
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.9,
+          "description": "On-time turn-in rate of 100%",
+          "details": "Consistently submits assignments 3+ days early"
+        },
+        "communication": {
+          "score": 4.3,
+          "description": "Reaches out to instructors proactively",
+          "details": "Averages 12 meaningful interactions per course"
+        },
+        "presentationSkills": {
+          "score": 4.2,
+          "description": "Strong presentation abilities",
+          "standoutTraits": ["Clarity", "Relevant examples", "Conciseness", "Emotional impact"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/sarahchen",
+          "skills": [
+            {
+              "name": "Java",
+              "score": 4.5,
+              "description": "Extensive experience in OOP, design patterns, and enterprise applications"
+            },
+            {
+              "name": "Python",
+              "score": 4.7,
+              "description": "Proficient in data structures, algorithms, and ML frameworks"
+            },
+            {
+              "name": "GitHub",
+              "score": 4.1,
+              "description": "Strong version control practices, CI/CD pipeline experience"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://kaggle.com/sarahchen",
+          "skills": [
+            {
+              "name": "Analytics",
+              "score": 4.5,
+              "description": "Statistical analysis, A/B testing, data visualization"
+            },
+            {
+              "name": "GA4",
+              "score": 4.9,
+              "description": "Advanced implementation, custom event tracking, audience segmentation"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Sarah consistently demonstrates exceptional problem-solving abilities and leadership in group projects. Her code is clean, well-documented, and follows best practices.",
+            "instructor": "Prof. Michael Torres",
+            "course": "Advanced Algorithms"
+          },
+          {
+            "quote": "One of the most dedicated students I've had. Sarah goes above and beyond to understand complex concepts and help her peers.",
+            "instructor": "Dr. Emily Watson",
+            "course": "Machine Learning"
+          }
+        ],
+        "recommendationRate": 93
+      },
+      "skills": ["Java", "Python", "Machine Learning", "Data Analysis", "Team Leadership"]
+    },
+    {
+      "id": "2",
+      "name": "Marcus Johnson",
+      "email": "marcus.j@university.edu",
+      "location": "Austin, TX",
+      "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "major": "Data Science",
+      "college": "UT Austin",
+      "graduationYear": 2024,
+      "matchScore": 89,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 2.1,
+        "attendanceRate": 95,
+        "engagementScore": 4.4,
+        "messagesPerCourse": 8,
+        "avgResponseTimeHours": 4.1,
+        "careerMilestoneGrade": 4.5,
+        "interviewingGrade": 4.3
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.5,
+          "description": "On-time turn-in rate of 97%",
+          "details": "Regularly submits work ahead of schedule"
+        },
+        "communication": {
+          "score": 4.6,
+          "description": "Excellent written and verbal communication",
+          "details": "Clear, concise emails and presentations"
+        },
+        "presentationSkills": {
+          "score": 4.8,
+          "description": "Outstanding presentation abilities",
+          "standoutTraits": ["Engaging delivery", "Data visualization", "Storytelling", "Audience engagement"]
+        }
+      },
+      "hardSkills": {
+        "dataScience": {
+          "portfolioUrl": "https://github.com/marcusj",
+          "skills": [
+            {
+              "name": "Python",
+              "score": 4.8,
+              "description": "Expert in pandas, numpy, scikit-learn, and TensorFlow"
+            },
+            {
+              "name": "SQL",
+              "score": 4.6,
+              "description": "Complex queries, optimization, database design"
+            },
+            {
+              "name": "Tableau",
+              "score": 4.4,
+              "description": "Interactive dashboards, data storytelling"
+            }
+          ]
+        },
+        "computerScience": {
+          "portfolioUrl": "https://github.com/marcusj",
+          "skills": [
+            {
+              "name": "R",
+              "score": 4.3,
+              "description": "Statistical modeling, ggplot2, Shiny applications"
+            },
+            {
+              "name": "AWS",
+              "score": 4.0,
+              "description": "S3, EC2, Lambda, data pipeline experience"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Marcus has an exceptional ability to translate complex data findings into actionable business insights. A natural communicator.",
+            "instructor": "Prof. Lisa Park",
+            "course": "Business Analytics"
+          },
+          {
+            "quote": "His capstone project on predictive modeling was one of the best I've seen in my 15 years of teaching.",
+            "instructor": "Dr. Robert Chen",
+            "course": "Data Science Capstone"
+          }
+        ],
+        "recommendationRate": 96
+      },
+      "skills": ["Python", "SQL", "Tableau", "Machine Learning", "Data Visualization"]
+    },
+    {
+      "id": "3",
+      "name": "Aisha Patel",
+      "email": "aisha.patel@university.edu",
+      "location": "Seattle, WA",
+      "profilePicture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "major": "Software Engineering",
+      "college": "University of Washington",
+      "graduationYear": 2024,
+      "matchScore": 91,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 4.5,
+        "attendanceRate": 100,
+        "engagementScore": 4.9,
+        "messagesPerCourse": 15,
+        "avgResponseTimeHours": 1.2,
+        "careerMilestoneGrade": 4.7,
+        "interviewingGrade": 4.9
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 5.0,
+          "description": "On-time turn-in rate of 100%",
+          "details": "Always submits early, often helps peers meet deadlines"
+        },
+        "communication": {
+          "score": 4.8,
+          "description": "Exceptional communicator",
+          "details": "Leads study groups, mentors junior students"
+        },
+        "presentationSkills": {
+          "score": 4.5,
+          "description": "Confident and articulate presenter",
+          "standoutTraits": ["Technical depth", "Clear explanations", "Q&A handling", "Visual aids"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/aishapatel",
+          "skills": [
+            {
+              "name": "JavaScript",
+              "score": 4.9,
+              "description": "Full-stack development, React, Node.js, TypeScript"
+            },
+            {
+              "name": "Java",
+              "score": 4.6,
+              "description": "Spring Boot, microservices architecture"
+            },
+            {
+              "name": "Docker",
+              "score": 4.3,
+              "description": "Containerization, Kubernetes basics, CI/CD"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://github.com/aishapatel",
+          "skills": [
+            {
+              "name": "MongoDB",
+              "score": 4.2,
+              "description": "NoSQL database design, aggregation pipelines"
+            },
+            {
+              "name": "PostgreSQL",
+              "score": 4.5,
+              "description": "Relational database design, performance tuning"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Aisha's interviewing skills are remarkable. She presents herself with confidence and demonstrates deep technical knowledge while remaining personable.",
+            "instructor": "Prof. James Miller",
+            "course": "Career Preparation"
+          },
+          {
+            "quote": "A true full-stack developer with an eye for clean architecture. Her code reviews helped improve the entire class's coding standards.",
+            "instructor": "Dr. Sarah Kim",
+            "course": "Software Engineering II"
+          }
+        ],
+        "recommendationRate": 98
+      },
+      "skills": ["JavaScript", "React", "Node.js", "Docker", "System Design"]
+    },
+    {
+      "id": "4",
+      "name": "David Kim",
+      "email": "david.kim@university.edu",
+      "location": "Boston, MA",
+      "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "major": "Computer Science",
+      "college": "MIT",
+      "graduationYear": 2025,
+      "matchScore": 87,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 1.8,
+        "attendanceRate": 92,
+        "engagementScore": 4.2,
+        "messagesPerCourse": 6,
+        "avgResponseTimeHours": 5.2,
+        "careerMilestoneGrade": 4.4,
+        "interviewingGrade": 4.1
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.2,
+          "description": "On-time turn-in rate of 94%",
+          "details": "Consistent performance with occasional deadline rushes"
+        },
+        "communication": {
+          "score": 3.9,
+          "description": "Solid technical communication",
+          "details": "Prefers written communication over verbal"
+        },
+        "presentationSkills": {
+          "score": 3.8,
+          "description": "Good technical presentations",
+          "standoutTraits": ["Technical accuracy", "Code demonstrations", "Documentation"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/davidkim",
+          "skills": [
+            {
+              "name": "C++",
+              "score": 4.9,
+              "description": "Systems programming, memory management, performance optimization"
+            },
+            {
+              "name": "Rust",
+              "score": 4.7,
+              "description": "Safe systems programming, async runtime development"
+            },
+            {
+              "name": "Linux",
+              "score": 4.5,
+              "description": "Kernel development, system administration"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://github.com/davidkim",
+          "skills": [
+            {
+              "name": "CUDA",
+              "score": 4.3,
+              "description": "GPU programming, parallel computing"
+            },
+            {
+              "name": "Assembly",
+              "score": 4.1,
+              "description": "x86-64 assembly, reverse engineering basics"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "David has an exceptional understanding of low-level systems. His compiler project was graduate-level quality.",
+            "instructor": "Prof. Alan Turing Jr.",
+            "course": "Compiler Design"
+          },
+          {
+            "quote": "Brilliant problem solver with deep algorithmic knowledge. Would excel in any systems-focused role.",
+            "instructor": "Dr. Grace Hopper II",
+            "course": "Operating Systems"
+          }
+        ],
+        "recommendationRate": 88
+      },
+      "skills": ["C++", "Rust", "Systems Programming", "Linux", "Performance Optimization"]
+    },
+    {
+      "id": "5",
+      "name": "Emma Rodriguez",
+      "email": "emma.r@university.edu",
+      "location": "New York, NY",
+      "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+      "major": "Information Systems",
+      "college": "NYU",
+      "graduationYear": 2024,
+      "matchScore": 92,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 2.8,
+        "attendanceRate": 97,
+        "engagementScore": 4.8,
+        "messagesPerCourse": 14,
+        "avgResponseTimeHours": 1.8,
+        "careerMilestoneGrade": 4.9,
+        "interviewingGrade": 4.8
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.7,
+          "description": "On-time turn-in rate of 99%",
+          "details": "Proactively seeks feedback and iterates on work"
+        },
+        "communication": {
+          "score": 4.9,
+          "description": "Outstanding communicator",
+          "details": "Bridges technical and business stakeholders effectively"
+        },
+        "presentationSkills": {
+          "score": 4.9,
+          "description": "Exceptional presentation abilities",
+          "standoutTraits": ["Business acumen", "Executive presence", "Persuasion", "Stakeholder management"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/emmarodriguez",
+          "skills": [
+            {
+              "name": "Python",
+              "score": 4.4,
+              "description": "Scripting, automation, Django web development"
+            },
+            {
+              "name": "JavaScript",
+              "score": 4.2,
+              "description": "Frontend development, React, Vue.js"
+            },
+            {
+              "name": "Salesforce",
+              "score": 4.8,
+              "description": "Admin, development, integration, certified professional"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://tableau.com/emmarodriguez",
+          "skills": [
+            {
+              "name": "Tableau",
+              "score": 4.7,
+              "description": "Executive dashboards, KPI tracking, data storytelling"
+            },
+            {
+              "name": "Power BI",
+              "score": 4.5,
+              "description": "DAX, data modeling, enterprise reporting"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Emma has a rare combination of technical skills and business acumen. She can translate complex requirements into elegant solutions.",
+            "instructor": "Prof. Maria Santos",
+            "course": "Business Process Management"
+          },
+          {
+            "quote": "Her client presentation during our consulting project received the highest marks from our industry partners.",
+            "instructor": "Dr. John Walsh",
+            "course": "IT Consulting Practicum"
+          }
+        ],
+        "recommendationRate": 97
+      },
+      "skills": ["Salesforce", "Business Analysis", "Data Visualization", "Project Management", "Stakeholder Management"]
+    },
+    {
+      "id": "6",
+      "name": "James Thompson",
+      "email": "james.t@university.edu",
+      "location": "Chicago, IL",
+      "profilePicture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "major": "Cybersecurity",
+      "college": "Northwestern University",
+      "graduationYear": 2025,
+      "matchScore": 85,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 1.5,
+        "attendanceRate": 90,
+        "engagementScore": 4.0,
+        "messagesPerCourse": 5,
+        "avgResponseTimeHours": 6.5,
+        "careerMilestoneGrade": 4.2,
+        "interviewingGrade": 3.9
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.0,
+          "description": "On-time turn-in rate of 92%",
+          "details": "Works well under pressure, meets critical deadlines"
+        },
+        "communication": {
+          "score": 3.8,
+          "description": "Technical communicator",
+          "details": "Excellent documentation, improving verbal skills"
+        },
+        "presentationSkills": {
+          "score": 3.6,
+          "description": "Solid technical presentations",
+          "standoutTraits": ["Security demonstrations", "Risk communication", "Technical depth"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/jamesthompson",
+          "skills": [
+            {
+              "name": "Network Security",
+              "score": 4.8,
+              "description": "Penetration testing, vulnerability assessment, incident response"
+            },
+            {
+              "name": "Python",
+              "score": 4.4,
+              "description": "Security automation, scripting, tool development"
+            },
+            {
+              "name": "Cloud Security",
+              "score": 4.2,
+              "description": "AWS/Azure security, IAM, compliance frameworks"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://github.com/jamesthompson",
+          "skills": [
+            {
+              "name": "SIEM",
+              "score": 4.5,
+              "description": "Splunk, log analysis, threat detection"
+            },
+            {
+              "name": "Forensics",
+              "score": 4.3,
+              "description": "Digital forensics, malware analysis, evidence handling"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "James has a natural talent for finding vulnerabilities others miss. His CTF team ranked top 10 nationally.",
+            "instructor": "Prof. Bruce Schneier III",
+            "course": "Ethical Hacking"
+          },
+          {
+            "quote": "Thorough, methodical, and security-minded. Would trust him with critical infrastructure protection.",
+            "instructor": "Dr. Kevin Mitnick Jr.",
+            "course": "Network Defense"
+          }
+        ],
+        "recommendationRate": 84
+      },
+      "skills": ["Penetration Testing", "Network Security", "Cloud Security", "Incident Response", "Threat Analysis"]
+    },
+    {
+      "id": "7",
+      "name": "Olivia Martinez",
+      "email": "olivia.m@university.edu",
+      "location": "Los Angeles, CA",
+      "profilePicture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+      "major": "UX Design & Computer Science",
+      "college": "UCLA",
+      "graduationYear": 2024,
+      "matchScore": 93,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 3.8,
+        "attendanceRate": 99,
+        "engagementScore": 4.9,
+        "messagesPerCourse": 16,
+        "avgResponseTimeHours": 1.5,
+        "careerMilestoneGrade": 4.8,
+        "interviewingGrade": 4.7
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.8,
+          "description": "On-time turn-in rate of 100%",
+          "details": "Iterates multiple times before submission for quality"
+        },
+        "communication": {
+          "score": 4.9,
+          "description": "Exceptional communicator",
+          "details": "User research interviews, stakeholder presentations"
+        },
+        "presentationSkills": {
+          "score": 5.0,
+          "description": "Outstanding presentation abilities",
+          "standoutTraits": ["Visual storytelling", "User empathy", "Design thinking", "Prototyping demos"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://dribbble.com/oliviamartinez",
+          "skills": [
+            {
+              "name": "Figma",
+              "score": 5.0,
+              "description": "Expert-level prototyping, design systems, collaboration"
+            },
+            {
+              "name": "React",
+              "score": 4.5,
+              "description": "Frontend development, component libraries, animations"
+            },
+            {
+              "name": "CSS/SCSS",
+              "score": 4.7,
+              "description": "Responsive design, animations, accessibility"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://medium.com/@oliviamartinez",
+          "skills": [
+            {
+              "name": "User Research",
+              "score": 4.8,
+              "description": "Qualitative research, usability testing, A/B testing"
+            },
+            {
+              "name": "Analytics",
+              "score": 4.3,
+              "description": "Hotjar, Mixpanel, user behavior analysis"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Olivia's design portfolio is professional-grade. Her redesign project for our university app is actually being implemented.",
+            "instructor": "Prof. Don Norman Jr.",
+            "course": "Human-Computer Interaction"
+          },
+          {
+            "quote": "Rare combination of design sensibility and coding ability. She can take projects from concept to production.",
+            "instructor": "Dr. Julie Zhuo",
+            "course": "Product Design Studio"
+          }
+        ],
+        "recommendationRate": 99
+      },
+      "skills": ["UI/UX Design", "Figma", "React", "User Research", "Design Systems"]
+    },
+    {
+      "id": "8",
+      "name": "Michael Chang",
+      "email": "michael.c@university.edu",
+      "location": "Denver, CO",
+      "profilePicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+      "major": "Machine Learning",
+      "college": "University of Colorado",
+      "graduationYear": 2024,
+      "matchScore": 90,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 2.5,
+        "attendanceRate": 94,
+        "engagementScore": 4.5,
+        "messagesPerCourse": 9,
+        "avgResponseTimeHours": 3.2,
+        "careerMilestoneGrade": 4.6,
+        "interviewingGrade": 4.4
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.4,
+          "description": "On-time turn-in rate of 96%",
+          "details": "Balances multiple research projects effectively"
+        },
+        "communication": {
+          "score": 4.2,
+          "description": "Strong technical communicator",
+          "details": "Published researcher with clear writing style"
+        },
+        "presentationSkills": {
+          "score": 4.4,
+          "description": "Strong academic presentations",
+          "standoutTraits": ["Research clarity", "Methodology explanation", "Results visualization", "Academic rigor"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/michaelchang",
+          "skills": [
+            {
+              "name": "PyTorch",
+              "score": 4.8,
+              "description": "Deep learning, custom architectures, research implementations"
+            },
+            {
+              "name": "TensorFlow",
+              "score": 4.6,
+              "description": "Production ML, TFX pipelines, model serving"
+            },
+            {
+              "name": "Python",
+              "score": 4.7,
+              "description": "Scientific computing, research code, optimization"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://scholar.google.com/michaelchang",
+          "skills": [
+            {
+              "name": "MLOps",
+              "score": 4.4,
+              "description": "Model deployment, monitoring, experiment tracking"
+            },
+            {
+              "name": "Computer Vision",
+              "score": 4.7,
+              "description": "Object detection, segmentation, generative models"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Michael co-authored a paper with our lab that was accepted at NeurIPS. Exceptional research capability for an undergraduate.",
+            "instructor": "Prof. Yann LeCun Jr.",
+            "course": "Deep Learning Research"
+          },
+          {
+            "quote": "His ability to implement complex ML papers from scratch is impressive. Strong mathematical foundation.",
+            "instructor": "Dr. Andrew Ng III",
+            "course": "Advanced Machine Learning"
+          }
+        ],
+        "recommendationRate": 94
+      },
+      "skills": ["Machine Learning", "Deep Learning", "PyTorch", "Computer Vision", "Research"]
+    },
+    {
+      "id": "9",
+      "name": "Priya Sharma",
+      "email": "priya.s@university.edu",
+      "location": "Atlanta, GA",
+      "profilePicture": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=150&h=150&fit=crop&crop=face",
+      "major": "Software Engineering",
+      "college": "Georgia Tech",
+      "graduationYear": 2025,
+      "matchScore": 88,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 2.2,
+        "attendanceRate": 96,
+        "engagementScore": 4.6,
+        "messagesPerCourse": 11,
+        "avgResponseTimeHours": 2.8,
+        "careerMilestoneGrade": 4.5,
+        "interviewingGrade": 4.5
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.6,
+          "description": "On-time turn-in rate of 98%",
+          "details": "Actively participates in office hours and code reviews"
+        },
+        "communication": {
+          "score": 4.5,
+          "description": "Clear and collaborative communicator",
+          "details": "Effective in agile team environments"
+        },
+        "presentationSkills": {
+          "score": 4.3,
+          "description": "Good presentation abilities",
+          "standoutTraits": ["Sprint demos", "Technical walkthroughs", "Team coordination"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/priyasharma",
+          "skills": [
+            {
+              "name": "Go",
+              "score": 4.6,
+              "description": "Microservices, concurrent programming, API development"
+            },
+            {
+              "name": "Kubernetes",
+              "score": 4.4,
+              "description": "Container orchestration, helm charts, service mesh"
+            },
+            {
+              "name": "TypeScript",
+              "score": 4.5,
+              "description": "Full-stack development, type safety, modern frameworks"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://github.com/priyasharma",
+          "skills": [
+            {
+              "name": "GraphQL",
+              "score": 4.3,
+              "description": "API design, Apollo, federation"
+            },
+            {
+              "name": "Terraform",
+              "score": 4.2,
+              "description": "Infrastructure as code, multi-cloud deployments"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Priya led the backend team in our capstone project. Her architectural decisions were sound and well-documented.",
+            "instructor": "Prof. Martin Fowler Jr.",
+            "course": "Software Architecture"
+          },
+          {
+            "quote": "Excellent at DevOps practices. Her CI/CD pipeline setup became the template for future class projects.",
+            "instructor": "Dr. Kelsey Hightower II",
+            "course": "Cloud Computing"
+          }
+        ],
+        "recommendationRate": 91
+      },
+      "skills": ["Go", "Kubernetes", "DevOps", "Microservices", "Cloud Architecture"]
+    },
+    {
+      "id": "10",
+      "name": "Alex Rivera",
+      "email": "alex.r@university.edu",
+      "location": "Miami, FL",
+      "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face",
+      "major": "Computer Science",
+      "college": "University of Miami",
+      "graduationYear": 2024,
+      "matchScore": 86,
+      "performanceMetrics": {
+        "avgDaysBeforeDeadline": 1.2,
+        "attendanceRate": 88,
+        "engagementScore": 4.1,
+        "messagesPerCourse": 7,
+        "avgResponseTimeHours": 4.5,
+        "careerMilestoneGrade": 4.3,
+        "interviewingGrade": 4.2
+      },
+      "softSkills": {
+        "proactivity": {
+          "score": 4.1,
+          "description": "On-time turn-in rate of 93%",
+          "details": "Entrepreneurial mindset, self-starter"
+        },
+        "communication": {
+          "score": 4.0,
+          "description": "Good communicator",
+          "details": "Effective in startup environments"
+        },
+        "presentationSkills": {
+          "score": 4.5,
+          "description": "Strong pitch presentations",
+          "standoutTraits": ["Startup pitches", "Product demos", "Investor communication", "MVP presentations"]
+        }
+      },
+      "hardSkills": {
+        "computerScience": {
+          "portfolioUrl": "https://github.com/alexrivera",
+          "skills": [
+            {
+              "name": "React Native",
+              "score": 4.7,
+              "description": "Mobile app development, cross-platform solutions"
+            },
+            {
+              "name": "Node.js",
+              "score": 4.5,
+              "description": "Backend development, RESTful APIs, real-time systems"
+            },
+            {
+              "name": "Firebase",
+              "score": 4.6,
+              "description": "BaaS, real-time databases, authentication"
+            }
+          ]
+        },
+        "dataScience": {
+          "portfolioUrl": "https://github.com/alexrivera",
+          "skills": [
+            {
+              "name": "Stripe API",
+              "score": 4.4,
+              "description": "Payment integration, subscription management"
+            },
+            {
+              "name": "MongoDB",
+              "score": 4.3,
+              "description": "NoSQL design, Atlas, aggregation pipelines"
+            }
+          ]
+        }
+      },
+      "instructorFeedback": {
+        "testimonials": [
+          {
+            "quote": "Alex built and launched a real startup during my entrepreneurship class. His app has actual paying customers.",
+            "instructor": "Prof. Steve Blank Jr.",
+            "course": "Tech Entrepreneurship"
+          },
+          {
+            "quote": "Fast learner with a bias for action. Ships quality code quickly without sacrificing best practices.",
+            "instructor": "Dr. Paul Graham III",
+            "course": "Startup Engineering"
+          }
+        ],
+        "recommendationRate": 87
+      },
+      "skills": ["React Native", "Mobile Development", "Startup", "Full Stack", "Product Development"]
+    }
+  ]
+}
