@@ -16,7 +16,7 @@ export function StudentTable({ students }: StudentTableProps) {
   const [yearFilter, setYearFilter] = useState<string>('all');
   const [sortField, setSortField] = useState<SortField>('matchScore');
   const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
-  const [minMatchScore, setMinMatchScore] = useState<number>(0);
+  const [minMatchScore, setMinMatchScore] = useState<number>(90);
 
   const majors = useMemo(() => {
     const uniqueMajors = [...new Set(students.map(s => s.major))];
@@ -190,9 +190,6 @@ export function StudentTable({ students }: StudentTableProps) {
                 Rec. Rate {getSortIcon('recommendationRate')}
               </th>
               <th>Skills</th>
-              <th onClick={() => handleSort('graduationYear')} className="sortable">
-                Grad Year {getSortIcon('graduationYear')}
-              </th>
             </tr>
           </thead>
           <tbody>
@@ -209,7 +206,7 @@ export function StudentTable({ students }: StudentTableProps) {
                       <div className="student-details">
                         <span className="student-name">{student.name}</span>
                         <span className="student-meta">{student.major}</span>
-                        <span className="student-meta">{student.college}</span>
+                        <span className="student-meta">{student.college} · {student.graduationYear}</span>
                       </div>
                     </div>
                   </Link>
@@ -249,7 +246,6 @@ export function StudentTable({ students }: StudentTableProps) {
                     )}
                   </div>
                 </td>
-                <td>{student.graduationYear}</td>
               </tr>
             ))}
           </tbody>

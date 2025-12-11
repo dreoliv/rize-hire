@@ -15,7 +15,7 @@ function App() {
           <div className="header-content">
             <div className="logo">
               <span className="logo-icon">R</span>
-              <span className="logo-text">RizeHire</span>
+              <span className="logo-text">Rize Align</span>
             </div>
             <p className="tagline">Connecting top talent with top employers</p>
           </div>
@@ -27,7 +27,7 @@ function App() {
           </Routes>
         </main>
         <footer className="app-footer">
-          <p>© 2024 RizeHire. Powered by proprietary student performance data.</p>
+          <p>© 2024 Rize Align. Powered by proprietary student performance data.</p>
         </footer>
       </div>
     </Router>
